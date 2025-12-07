@@ -23,7 +23,7 @@ btn.addEventListener('click', async function(event) {
         createGallery(data.hits);
       } else {
         iziToast.error({
-          title: `Я не годен знайти "${query}", шукай щось інше !`,
+          title: `Sorry, there are no images matching your search query. Please try again!`,
           timeout: 4000
         });
       }
